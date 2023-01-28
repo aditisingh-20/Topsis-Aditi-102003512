@@ -22,7 +22,7 @@ def main():
     fname=argumentList[1]
     rname=argumentList[-1]
     if rname[-3:]!='csv':
-        rname='101903793-result.csv'
+        rname='102003512-result.csv'
 
     try:
         df=pd.read_csv(fname,index_col=0,na_values=['missing','Missing','NA','na','Na','N/A','n/a',' '])
