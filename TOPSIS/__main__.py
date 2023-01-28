@@ -5,7 +5,7 @@ import time
 def main():
 
     argumentList=sys.argv
-    logFile=open('101903793-log.txt','w')
+    logFile=open('102003512-log.txt','w')
     logFile.flush()
     weights=''
     impacts=''
